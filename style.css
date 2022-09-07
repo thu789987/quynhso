@@ -233,7 +233,7 @@ textarea {
   background-size: 400% 400%;
   animation: gradient 12s ease infinite;
   height: 100vh;
-  min-height: 80rem;
+  min-height: 30rem;
   max-height: 120rem;
   position: relative; }
   @keyframes gradient {
