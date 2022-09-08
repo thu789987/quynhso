@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>QuynhPortfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="preload">
+    <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span> </div>
+    <script>
+          $(window).on("load",function(){
+	  $("body").removeClass("preload");
+          $(".loader-wrapper").delay(1700).fadeOut("slow");
+        });
+    </script>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="https://lh3.googleusercontent.com/fife/AAbDypB-TajwcnYdR0cvHSdo_mV9UQpJiG-7FWGT48k4kjc68p74XHsacOUJBFePXQcCI6UYRAygAuT4rfZjjOKESgyy9ngIhOYljmLoit22PwJM0MtF4lYcYPuUA4nOgqub0APHbv1rtddkDyuuz_Ifbjpp_oJr74Icr0FrklEWYO5rbZKCQ8kFNm5pYXKEydtxIpbQ1O4DF0GJg9Qgjkv5QrIxHSD_WMTUll2hLqxjPab63U4aAmsPfjJ1nUmLuzSeXlzJ6hef3konzKd6yDjowZ1KCovfLNnDFQPsTfgAmfr9iBfVW0YA-KEoJ5U6UBzCQQvx0wJBN4s9hLMSGTZ99TAWXudmcOw3TERB-GzLbSYmy6Axlhzsr20mi3LGh7b5UV3BvVh9-0RIWZTmWqdZMZbvpngA1LLzwj96DZ2VkU_FMvStVqOsxYOtaobC-zbORwdWtJCDyl6bIUpMtSiMobCZBofoS5TbAt1G5lrJ2Nf83qisK6_EDRNLkC7BNIt3_MwdKtAbu3qdJHNPHsQKITpvw0ElWYOqKU0O32W3YZ-fQLvjpxbikdQFo76GxMT1Kr4dGuvg8M_5DkmmFVwVJEcbFyDFnzRZBUDHVDrG_VVN2mumEJQcrAnDCUK0rWRfb4KGJFlxJQXSE3fBBfrKlzZQV6BNLSEl7PynJCRq1nJQRMseDSTz_u5d7euIL4xEY3S7G6beNr5dYQeOTmuFpwgppVTWDiLOypCx_TOnuy4H5cErnmVq7EW-yi23iVpNRk4YIJzl_rEhjx9l9Mg7URrcve5QctBtEmv1VFNs7VvEviKrCf4aBeaHmaNoBKgUIkq1Cr3aOxlBBTbpm83BXjfe7hx1ZdVHc42l7sykH0Vqq_I-61bu41bKkhxX6Rk6of0zU-OqXHVbqX8vSrbuW8hHGaHNyYpXzlPVg1_Toyft1F6DysWfJJjZ-_gf-b3FX5WMfiZCcurSzX4_je_ulPPLNKdHoZJCOJuouGhySvVVPoLY3weprKZzOiegab5tWSSTfTOvdvH0DrS5aWkPma6RFzcPaUvDPUkxXMlz4ICfwOpMTdc2gV7gvwipcX4f186VzilyrF3aecZa-PxF1J_yOq957xJB1cIDY8hwWwZPVt4KiBb1hRr4rwX93ykgzI-aIlXm1b8rZaPSnLby-HgQNylE1yPYlG6VwHvR180U3urzbsS_uQTQRbaUHec0A_pMiI4FV4OM32cIZkaXn4RyF3VPgFPSio4E3bFlJ-pLZ2UGtwwM8S46NWdi1Y1hu5J0NH0oFhOi-rn3e_AkwKk1mjmcfdawtqPFBKm0BID5=w1920-h1080"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Nguyễn Ngọc Quỳnh</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#footer" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#footer"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary" data-aos="fade-up" data-aos-delay="2200">Hi, I am Quynh</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I am UI/UX designer. Let see what i have.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="https://www.behance.net/gallery/151648177/2022-PORTFOLIO-QUYNH-NGUYEN"
+            target="_blank" class="btn btn--bg">My Portfolio</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/ng%E1%BB%8Dc-qu%E1%BB%B3nh-nguy%E1%BB%85n-0397b624a/" class="home-hero__social-icon-link">
+            <img
+              src="https://lh3.googleusercontent.com/fife/AAbDypDhrcHCS4Q8_LEVNqYgcvo8MONAP7jooaApm--a6aINv0XoipnmBAXvRWxsWH1AcI9DohHRppQgpEqnHdBQ9bUwMENgg0fHmrkGJfT01uV0z1Hq04K1WVHWuLFZGNJP1I_s8s63rs2hn3J-oOp9cpvhKUfnpH_mtFAhmv4gcCFJNd1ehaUAuPJ6xQsNvIKDSX6pLCErgw7jh_Z7Tzm6FRD6_O0c81Uz52mP07mteTobmn9kfU27l30GNPImXAjFgQ-BwKBo2ig_pMx35uRU-RyYtJjTGJUXUrdaGvNhrLCHTUJan7iE_omugftkLXz4QzQWF9lERwxsOY8WSqPIBtaRAsl0djTbfCqUgyIhjvqAMSetif4qYG6sXfbEhbr91Dh8A3dXK4dsPQJBGP91ZGW3y6i8rrcdiSja-ZJULWE2rCL8ZG1wkGDXvoOiy7eZC_3Sirhs4JCtvS-wE4R_ZyRdF9BYKTjJBiUKxW2eC4I5jgtVNe1CPt_vTb4wUPr6ZtQ00rbTozuM2KRHhmJjRo0XIPN3puofUY4SXnN_5GJcQGN29dtXG_DCrF4p6C5UYDafeWhRB71q5WB41lOfkiGnHdbpM7drvF7Y8cRzgyZZxANWrVA04CBtzs_3b7BbhLUKb4Ja7nn1IIo4QpZ0sPTC1SF7eu3ZUUqfYYWNLuOO_4A87vtxabWjT6LdEbOZazrb7clduuf7N2twEHrrFT5QJi1Q3_HiPsC26_wksIxOmOPOIJ_fzCyS3eN0npZd-EXDZFAnQAOVgqnCKXSmw5UdT8a6z4ic54XSb2N_mGL_h7PJQO1SBZ10OscrAP5QNhGRCABf4w94-8LlQTfA-sNFC-2_Ifmw4oRRaYRw88EaHGH9p1Bn2ZjU_sWDB7vm7qcOxi6hbQCuQaCxK_CtppToK14i7IaOL6KxaASXXCpj0uyjP8hU1nfBauD4lqySncZlR_MVgkw0jRF2WPybaFU87yicwv8KHSQoGvVcnsxG2ElkKOCFpM-hY9J1aLvasQh3wIN8oUwl1ruT644GDH7CoetPfXmHWnFfPs7jlt_vhJSwHqHe0wbvJH3KVy8_40CPy7H76TBxYPZwUipaXxnzvQrZH8FDMvgL5iHwe181aQkNuK0QKcYUH2Dh98JIfV07Y--vnv5-w08y--LvmEUkeO5zP_zaEMoH_aWP65DoWy0Jy83QrcKfhK9ypq01S90lmduCHXvCxOPVBgx4Fo6nTBnY6A8rRG5_wHUvqEZniT-jmSnETwUcVzgg_KDVYAeMGN5bVEjh6imiFFAsKHCp0hkw9mcmcNi5Hi4TufHt=w1920-h902"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.behance.net/quynhnguye2763"
+            target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="https://lh3.googleusercontent.com/fife/AAbDypCJFLBbbnXlhla9181B7eK7oFwX41Uyzi-RYqa8zQczrdhZPwJolRrfbCsHdAWQZAnprlyKiBLDjxQ18NrJCUxLZDphvgCoJskzReuJrazqKHfguLa0kCQnuKeAD6HkYFKHxyN-Zk7b0EYWTwAHM05GGVp1xUsZiv4b_7rUBhT0hN7Zi5J1gk2566onac2fHm2eAgiAo4JwYXzzZReW13ezJLAVigqy3eVX_pxs1k2N9qk28sXwLLv_UBXmaszOwGq2UK6a1ACjW6Pwjf5v0D9Wj5aPFeBYqj02nz-vBu-51qELeztJxqrX7Bjxw-nP9TpENFQZ7vPIV6s0JCOACWw6hYbVLnsitlxdbr7X4LITkcZ-TRU-CSKH11m0_jrp_KiHO8HceFT_h6MpRYWgsr9q-qmuk4oKVZq3PjeJQ_EO4plCsfwqUOVwa1WCcX2SdaIHZiTATrCr7acxCxW_BTTDwXXTiMnD98x8-IgDywGV5As1NODtYHazpYWuSXAVQAo9TEI-RmeuYVu6hINPvanD_rXoXtnaFsAa0VF-egGHWdhi_k__KoZCHa_gTBmOhcfX7XUyXylYFTNvqxv_i9Q_g3eMSECpttBPB8HPhI5wug_06QFTr0M69oxwEkhTsKdoultQoNJ6u_KKvKD-bq3vW4Yfldt9Q6rnW4A9fucPpP3kIJwa0eq4Un_WnHEENYP4-DHecw-1iIhWX05kRsEMr6_6ZejXVvfKejFnDJ1oZ8_g-rqQC27rHM9u9IODwvNLBjRlw8FRvaj_oitkJ8la7eh-rvl8rBhhEVq4g80bbFAL7VYvRS4wDbo0moC2tTioEe-Fvksnp06GAv4Ak-9Gesyd6g8oe2-gJOYzRXwSM0UQd34k46vNonAZz34Kb3fFL4g_OCkBa4F57Pb-VU3iYViVgiqwWj6R_3vsha208Zs-jPAOg5SsOJcGNrobY-iFruaGqiBYHObBa8Ifzq34RggxBsowj42xWwDvKerc4IfwJs0u4tnBriTvPnxQ9KPxThklg7rWXIHMovmXHCf5pE3-ZmRUe34oEVsoCXwgadc1I9bVrhGg3kXWqayylgSiWrDx09LiO5BK9ShRzg1mjT-Ej_r2MBz8eLSCpxvugkRQDNR0Eu-6qiTDzeXFn3w5mvdejQvvlhLHw4588Rd1cQ0oCQFvr9vtUX7aOn6WGl7HL76p1eqIFWOUdQwdaekhBPcFxV_rdUEJGVktIS7gZOpWUIQZ6VwHes0fSWHfIMoLAninsUHUF4tfXu5rDJUFOP5YLn2xfpz5j__XDVhw7Lu6M03WFBmll6aSvJqx=w1920-h902"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="https://lh3.googleusercontent.com/fife/AAbDypBIULQcCaG_IhT9mmJP1QhdbUMSCgf1db9u4w7_mILzwGrbPDa1bp_KhWmuC-fRpTEkq4050W3Q_HLyY5GqfMd7NRGbTXukO40vUA3m-RDaIO4iVgD4eqruEt-lo9NoYksc5J6KzKm22D3XeUTWqaSS-JEsew-yvP4531DwYqlE97uLhDrMmc9-bvip_9kTQxU6f0-l1LIotx_74oUFzvBungRPZsucKA8JqW4mCAgr_qHztx8CEZ7ojRUwXK8bWlXpquYqmq1jQe9eJVKFo3jQgIavWRL-EbusZdL9IG9VYKzA4KnIY5SK1pq3HznYz488HgDmqEkuF0sWjGR4hNQhZTyKznObei3bFYrKeNZwL-YLJ44uo37I-xCdAVUUI_VkexlugwMKY0RaAtLhDq1KWMiR6QidGC_E-HD2t4XxKncINe2WReU1eX41j0wMvFoheZNp0SmZ3MFPAiZqFBHKwzAzVm6A426zFTSP4z243zv0EenmN6Y3hnXTvZwmIYhfZ66eK4JFfQNAueaBniDxZ-66_D0vqyP0lUhGwETJVN2Y8rpNWk4txzL8v8rn2dp3JzRx97YQgJsg2wGjhdvL7X12bjC9dEI61aH2IUfUZAonTo7xp20CorJI9gqsJ1KWw-Qm4R5GsvY433Fp-jq0Jtt3by1ykGto5lDaCnaqJ4fZWMZN9hpM3Hj-krQegRjTYQWKHrdswSjX1ZNvFh7b6m9XRY_QKUIyuOk0pAV5IZW0bscouZEVCNflq22ZpQmhztUKQ3SWKlaWdf0CwWk_W1eBIhH-HAKKQe8L5Erd8Jh95BDa8n7M6EQ3_6Cj3i_1WOVTobUch-koiIkE9s9r0cF9Jb-39lgWC223A2mbtf8ztUDc_tHMo8RW4BMA6fqavV8i0GRdGjEnBbE8urI7tg8WF1vek1cnxHkNXo847WwlgNW12o4XfUYY9Xumd4e5RGxosGD_5CgPpZzExpHtoBHd7YnLC9bGUylnICVMSsr9qjryY5Yjl66u668Ayty-DVb1SM6iKj2tQCHUbP7nY4Gb8Ptw14am3BFjZQn1rrPMpao8it6SaBrjTJHBp79TXhN29DR-S0WrrhdNz_q2SwU4tt_VHYwkjx0tXEVX_Ch9But2xTpIbeWwFcKVP3B_wICDtpNxlvoPUXkiEaIIpMF_E6jfB27zXUStjZQC4agImrHvbpcYoKmuuTiHAx2zcCXFGzOSTYwvDhdKcFBONbakMyqog9BhwJKLJXiUqzXgm9oOWmm9fDrtUV7QM9V3bj2djXRGZuoE9WVd6frl_DIrTciTo4P9kaK_dw6E=w1228-h902"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="https://lh3.googleusercontent.com/fife/AAbDypDEfrI8aiwZuFgYdvfxDRnkgwLOu0gv_krhBskfnN9Cd1qKma0a_-DdKahgaIlUIy6ACk_E6-WL-PMuEgB4ZyblLdWOg_ejLsqKvAHaZwouh51gSHcuG3le41eKcL-5Iinvf45waYpIz7p19Wy0elDvzlFEraB_Ovii-woai0qqIX3e1dowDHhFsYcV-Mbjarx8zp8Oi-XRx9tvKknHlM0vSjpfK6_ZOPcfCOx59p7-XgS8EpLhp8iWgxQ2e-DOwn6a-jZP0GI2wjcaqW1u-_UV8mY03_Amc1XbzmrWxweUILY62OhZThZLu-HS4b4OsMAlm0jNY5mxN7JkLaw1eYSI-EecJQfq1XKmBgy0dmd0Q93db-yUf82Wn9-0WUnGNtNjegVLoVgT5o_h0AVS8Jo3BXW0P_3vFZ-WoFFIsXyMxZ3gVIxNgd5AWW0NCr7zXuo2LtdsfjzwXAOMN6cUO50802FKraeC8LdnD40HbLi5yiR-dho8H4NIvCtlyGsTN8_wo9bh4Ql2mogekdRPnfN6UvjMrqRo_DgX6KZnPefO9S4-7HhcHVKFozIzIcdhkfV9NBM4qQb6P3SUNhLRhmydzM5ko9KBHN2IRY4fFxPbBdbaHbhkgQva6mRe2YRg2zNNQGx_q4NoiUcxjuAMueqGUUgWoZThBjm3NJ7KhCB0L7BPnE52YeWJnXF_V5nWj3iM2nw7tCA8LOzmcHE8x5aDwd8l4xTNZdsyHFCkYRq6hB9Z6hKRxPb0kUnXEafIIH3BJ-_N71VPMBKaTn2isNECR0FzBDtzfRZR9H_hXroIFdT4HK4lUPCssax9_M6DjmAmZrU_6efWwQEYt0_tH-8es7mm2Ik9FKyOQ3S8RvGDv7GfCsQYu99osjuHEMAw1p1b0P6gScJtgZ5jfcMW6Flyu4N2sv8d3-SUyc0jtOMYHYOpGCipFX260mF5aPiZuoDyCOSL2CEqnzVQ3ZLY0irW4qqLZlvPXdUwkN5U7TXfzw4VcZeRYQ1y76je3Vc6z1OLJZ3w0s-_HTJX0XY0JACPVSKkMs5ENx35etr-1biRA0ZvfE7NrVI-1De-FiY_40bmal1xHoBBvubKlUY4rRmICEBuMmIPg0Ev3B8jOnMGn7FC2BtLBGybzkm0s53kQw6eaAsPv6H_rGiicALVBRp76OBO9aEC8Tyfhu8lzXQJgmMipumz8CNccL0RB4NvbbKZEr3JiflPW_CEcts0KdvKOp9Ea1KBYH6UnIspcENsUcpQYjhNI6qIGKnQ2-GBohnMpvWVTA6uHMUE7IQNl2WIwg3ShxESOU5hz7i7O8ZG=w1228-h902"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="#"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main" data-aos="fade-up">About Me</span>
+          <span class="heading-sec__sub"data-aos="zoom-out" data-aos-delay="200"> 
+            I have 2 years of experience as a graphic designer. I have designed
+            printed clothing labels for brands such as Nike, Adidas, GAP, Reebok
+            and Amazon.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-sine">
+            <h3 class="about__content-title">
+                Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Having 2 years of experience as a designer and used to work for labels designing the
+                following brands fashion such as <strong>Uniqlo, Muji, Target, Walmart,...</strong>
+                So I wish to gain more experience in <strong>UI/UX</strong> field, 
+                I enjoy creating awesome user experiences and designing delightful digital products 
+                like websites, mobile apps, web apps, and dashboards.
+              </p>
+              <p class="about__content-details-para">
+                I am hopeful of opportunities for cooperation as UI/UX designer.<br>
+                  <strong> Let’s work together!</strong>
+              </p>
+            </div>
+            <a href="./index.html#footer" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Adobe XD</div>
+              <div class="skills__skill">Adobe Photoshop</div>
+              <div class="skills__skill">Adobe Illustrator</div>
+              <div class="skills__skill">Adobe After Effects</div>
+              <div class="skills__skill">Protopie</div>
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">Design System</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg" data-aos="fade-up" data-aos-anchor-placement="top-center">
+          <span class="heading-sec__main">My Projects</span>
+          <span class="heading-sec__sub">
+            These are personal projects that I learned and practiced in 1 year when 
+            I started learning about UI/UX design. I hope I can show y
+            ou what I have and what I need to improve in my skill.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="https://lh3.googleusercontent.com/fife/AAbDypA8TbQ7GvMdsZT0zbm0QwiYZkbZtzxUqwY28Er4vrWOzszjQwuqRDMuKKvcoShC2z5-SriHrXdLtULrBSC7DO4WwporTYz6dtW_oP3LVkcci2oXVY5NCBCI3Gcd6A_Bjq3vmCx_v6oD4ZFXu17T3tGdXwOB6Do2jXpPQiFw8j7YDKkIUhWZ5PyWlcOgk_4c4TtVGhBZwREpUsz61qp-n4cppK2lAqba9u6ZEyt2HtYGWZhYCrkgGrRCaSAmjZA0wjS3B2XcrPKAAiLtzmpjQvflSCbnQQdu13h9Ye-5yUgfV0hwugAzmYtfbS4o5-Vzi3xOzg0gBzGf9UPPaSqKECO-KKcSzl8ThFChQr6pINMGm55vLLsr7SyR85k5bDql95myO9kByMMmR_QHV4jKrmerahPaKykaOcaVkAVjNf6Awnjl5Iuls_ulCJBlsR3HkTWqYNB6_15zTs5VYDPV-4hmHrcLzJygv87pmm9n8nIlyOPL8ngJOuoy32hS9AiLDKTNZA0mt9CF-ObsvXi8M3x_s9x59_aoG6cOkSLXCgtQ8MWMeTgg3wkz3rCvNF4-pOjXhXBxk7aOcrZ8ypDc7vNK3CpOeG6iOx_LDe-KLBRNY41Ae03e7IPXUs0ZUCeN77QfBOaboqRNIubQ1lEXL25fGO78vfjiipRKrrpvmlwV3rLltVuxmhzzMje4HVsr4xKsctzOB8YfXPc7g9SXJK3Rxpsbb1KW5BpTV6xgCcAbXCDbXJ3FTs_8Bnln1GUw_PAi58BLunRhwm6BLFn0RK2bcQqWErHoAdG6iZvRkw6Ydk1_CjIjoI0rwerB8l1mBnNhyMBRMLm3QoWIW9KFEBobbZO97OvYSFrFF5pM4dKskc27iNslGUv6Km-ZdHgrbxhiSJl_Q-9J7ibjWA3JgxmcHsouBpFHqU4GUI8T9Ijv9Sg6AIFVM9Wa49nzEselKEZhpKdbrjqlaJWsrVy45MUdk5moYgk_yQNRlSzGNNrxGfJPqntj0WSWekNZMLLmuUVK5ovJRPzVcUS17kfurFncEQcwOtQRC7JpDTcd8j46vD1Sdm758MnFOq63fRvnW4vbc159C-PoiKEm_bGhnRAb9vmL5jsPZ51BuzBVQ5NyJsb8HqKBW8opAZlBsyhPe5aMiFNAd06MSDOplePhMPZ7y-ZNZ5EMxo44qQgiLQJYLQo_vLdPYFUDEF-F3TMiYhUAVvDweax9_5P8lpOODDH3l5cD3BAmFeVpsHiAqItOb4UIWGJ_Q3sqTIsLbPz9w4x3bKxdDODJAFA_S2xkXWgzM7sTZaq1KCfNsEwuA8F3=w1228-h902"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                data-aos="fade-right" data-aos-duration="1000"/>
+            </div>
+            <div class="projects__row-content" data-aos="fade-left" data-aos-duration="1000"> 
+              <h3 class="projects__row-content-title">Slife - Furniture Shopping App</h3>
+              <p class="projects__row-content-desc">
+                Slfie is a furniture shopping app where you can buy Furnitures, Decor
+	            	Furnishing and much more online. OUT features such as 3D & Augmented
+		            Reality (AR) for product will enhance your shopping
+                praesentium.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="https://lh3.googleusercontent.com/fife/AAbDypD3zAdnk0g-CeN7gI84O-Qn5NBTSMqFbTWHEfcTwjxclwUtoxGKwRFI00iOVgNlxC71iBCi34JiDHo6hA1w8i8XGD7Ch50nrnSQFazkBGk3650uBCNaZkc7RbAR4jDbP7m8dvV3bkWVZY8hOzp-mrRJdzowFCf_x4_WAlDmXLaWxB-ueRSZwdx5pB0U3yxe81hbLcwaU60ygAQ5Htn3GrQVFtglFy_BxCAo7oln_0bejvzj6qdtPUwHQgezV8RzckXGj1QtKplMdQ3PgDXvXbjc4Tk3YJDLG1Anr9sMQftPz3jRNbi50VKH5l4LmHB-b_EZ72mzLPyhRqpo5TXKXmlTt9zNKekJdc3Hi5KKfcg9Tikkuootqs3ueaRYOxDCtf3AGLnmTFKbbkgn5jFmu913hp5LNgaHGCe6f5TMKrkqyK2tAJu2KPOdhnKhK8SqVuK05Mnz0ryGtdLhdHJMisvTQ1UJqEI07L6Ki8GulF5oxRK3TBbuzgjPMczfLnxkJ6swQlfLtGXwWwqg1QoYiWJqcXspP5qd0Hs4VsfUzcppoqTw7S9BEZ4hwr-XPsk6Bh6DPZlQhsI3Q74YK12cxPb-yY9-6czu-RJ5M0p3-P1BPj9OXs3nZF2bwjBOja_dgkm3Kw5gvQWvjpPbYPhwlB_SGLj9sFu9PtXZUQ6z-MJ6-lQJYNEYQJKV2t86vq675Re_RaPeaHFLmNZL-wP6Hsm7e1Fy5ajtrACLGhTmsUzu6m4wXl5kzDeYB1XEWACzcotK6QWwy2ckk5MkK5D5xr4b_l-w9c3NdvbWS1E9W15zXOXU0BbZT4wiUPtQk1-ZAM9XXKkyNaupL6ZulgSWzLMXaGtEVStEVOOklRYtwj6E06sXwPFsyg1ajiJn95yVA1ASILrv-SHQkQTGrTks7t3MSvCTOjqfdeHJ0VH2N7rOKoCEhaOHFkRMvu3mOaRF8Okd1I62QXJiY3moZ8HuGPMrEzLDlf-9-3FTtnhyoUhAPtFG3EOUMSaQOmQJruU91J1nIxF4QRNb5Alrdw677nvgwYRDfN-ecyvqE8xgimSuyP1I_mkgdbBde0n3uHvnwaPz7uVx1xF4sIUkCPIxjzBoTdtweHl28sWoPiJn_gX30rgAPzrUJuRRgxOQUHXxZrqP5VbVimoFm_rSthgkWRkj0fRYWH_iQYHeU9JQ2esiiQMJnOsGjmqTa2PvhOTEMt9JLc6Lf4taUzGhYASJJ4XpO4fpfaaejdwO1Z7RsFN3jYHRvqFbmxtw3ftHwEk5WwupwdeLcHL91LMEc-kdA3AoCKNRJd9qMVTBsGAy4DLn=w1228-h902"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                data-aos="fade-right" data-aos-duration="1000"
+              />
+            </div>
+            <div class="projects__row-content" data-aos="fade-left" data-aos-duration="1000">
+              <h3 class="projects__row-content-title">Sales Admin Dashboard</h3>
+              <p class="projects__row-content-desc">
+                The sales administration dashboard provides lots of tools and 
+		            shortcuts to manage the entire website or web application of your 
+                online stores, such as managing products and orders, offering discounts.
+              </p>
+              <a
+                href="https://www.behance.net/gallery/151647227/Sales-Admin-Dashboard"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="https://lh3.googleusercontent.com/fife/AAbDypCB0Or4rtTX2V2rENm47U2UQtEUqZ19AoFetdCFQFEmF8BAEkZiI73Fv5XAnXdd7JsuQZhGtvc-usa9GIW7tx4hpQqRekGVbOQj3lWaNkipxUjiPi4U6vRqai_7t1rbqMw7tjGkMmMfgLw3RKsCGGfFj5QEA2btLkmt5OKxVXplYKjXFrvZHA4oq9nQ_tGkHA7CMoFFPbb6YG76s7cnAmVandved9iTrjFSOdkXq0LD_kYdcLvNnj_IQhbZUKdtqITbs9DOPKhWY9EAJUPY17ozgSkH7_idteQPyxoKykoRMOfugsEXG1FooWKsKMhgcRwCaGEBc0xjQT6jEkCzDOYn--Pdi-mk87lTT_RkYVjmkHgbf65fOrhpC9C2yePyRgj92SJ7wUaQ7qKUXIFUyj0VWIsE47YhHyfMdvQSkKUEtMOJx4Zyd_f0VhCzbkDEsgMsJfWG3levcwh2f6zLqQitETrQADunZXQXYxkzJAdAcpSh5NNMw0XL9mjcAGJRCM80uP2XwDSUTLCCKrT6QYC6msH08wjeqq5ZH_DGA9cyoQwzhXjYJB6dR1LP7UuS4aWf_DSMdwQJeIT_bCm1WoFipVjMeqYzg1uf7Xh7kDEiAg_BzL7i0Myo8FXME_VxSU8wsKbheybzFsHYcD2VYgEdqlflxTnxz-dm-28UwUSYW70vBnztoCPI0scua28HaskOmt8qLzkDlSZo1oEMl_DOySG7QYtbN3HcI1CUcxW4xxZMJjv21M8H8qT-Ww4YJekxq25cRs3DTOyLry8P1Tyr_-bwBoOceysmTTMF2y3htFffHHKx7Gtw12ifxbRpjmCp5cKTPs1gNu7P0jk9N92Bf1-cVrh4_sUucFfjNcGv5lbGj0qN3pRu_L4SL0yq6fqMbtHObe7LbUeY2KUiIwoUhMJEPMp_I3Lghepr5NPAvNf7UZI5_M9X_DtvLCVmhVcSJVhYVNnrdN2Cz65UfWYy6boIygyHYji59Na5p8t4ed4S1k5mL-P_sst0m0p6hJ4Ai1uOlKx9Iwi4bj4YQWrs6pH6Cdwxp6MqT6dp6Od9DSeAulNGQQG_r2nMSn1pfAI8XUWC5T9PjeTuaSk3sYPfWkEZVkWolBkuXmcoDE3IsuGlTjvaGgajMR0_lqyr8msIes1-7OwhGJAdNtcT55KXqDPeMvH4Qk1imdy7Yx1fb7Dtv7BmH7fIoKZbJsE_EvEypCzkawlucrTLK5UPw7Krzoc9wsHnLyQnk0utFEgP9lTqWyvVHb9Y6VQA5KpSlh_49i0uXFdomBDm1LyGwzfshJ96FbGT9JfLZ7EBlAat=w1920-h902"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                data-aos="fade-right" data-aos-duration="1000"
+              />
+            </div>
+            <div class="projects__row-content" data-aos="fade-left" data-aos-duration="1000">
+              <h3 class="projects__row-content-title">Moc Tra - Online Tea Shop</h3>
+              <p class="projects__row-content-desc">
+                The project was to create an online shop tea – Mộc Trà for the sale of tea, 
+		          products made of organic tea, tea sets, and tea gift. Our teas are carefully 
+		          selected by growers who come from Thai Nguyen, Tay Bac, Bao Loc... tea growing 
+		          regions of Vietnam, each one offering a unique story.
+              </p>
+              <a
+                href="https://www.behance.net/gallery/151646405/Moc-Tra-Online-Tea-Shop"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="https://lh3.googleusercontent.com/fife/AAbDypDdN-axlao7PlpeirGvtyW6tv0LTapIQkxao1xAbF7Z5fX21wAltP9jsw44jWUFTkd9F9J26p7dJd45atHacJehsvABJvpTJRm1cN3qnOEcA1N-y2HSt8mYGaIffFMe82RdaGx99Z1DtSuQJJPjGnVMjxfP3BNafcr_Oj3CqfDLtGnEsCFm61o5509xPXxY3rtnXmrWxB70kZlUXXV3LEN55Bzrpyn1M1iBub8QQU5OfAMEaB3mSLgPDOE90BaOVaOv6F8NXlie-1IZpFbpdUaI4TFOoRw5jSZWQayxoJE4DpTV9qP-7nETaD62jdYfueRsiMFhca715YZuZj9W1P3ed4Y6xOXUHiQ3v7fR_1bYbB_uXpd4PEpTpROeJH9zHegU25gumUmiBZ3ookeIqlEUCQD3RPBa7goYruf0Qh_eqFLfuLbUlzRdN0Ux0I349HFrYG9ieoWWtnCFoT8OBsAEOg5OkT3RNBw23pF3l0vXWDIHZ1TOBdCPzeNqQax9deS4WRUcxUOdRPxwlCxZDgFCRIIdQqswqV0KX7xglubNwPTBlixTuDH8xeFMlnqmR1Z31ZdrIFVw6cWmlARaiUA2uJj0xDoQwsUyiBX1nI4FXutrV99INlx6NUxkNoXDRINXSAfXyDStohu1qTh3ihCaEvROvo7PbMh0WjhhjCue5ObnJiKXQcbO3wBHuzlCBEe3vcezE-98MoAGhPTQHqLWq2S6Hz3MeI-hni7OX9EpKBxQH2SybkccbJs2k7AZlLgr5YC0pAReoiZrjLVCccDvGveSGmeCokDNY_DbdBuSekA3vJYuas71137-LoqOgofLI83sCGJzSVj-bNqcHeNPJ6-jFm-uLnPhQWA29a2fz1tw_PT1CPOwmXHzeAyI9bDQoZfgc_URGkT-RhktJTGNR4c5yY8GizCWnvXAThBKcmkyQ9SQorfrStKqPJmA9iajxYTK3upRV3p0FtUR8-4rM6hIm3JRIlzusnMupHARDxXY48OqT-NgCUj5_nLi62PIbi3T8xDmw3xE4PGC5SzwU6OqkwtSg9ePUvskW8d-56jPxMpTi6PpX_wcWhVTPwY2ukSyoXVHoJS1xhBS1nsDIUc3kP3bA38EOXKJesgIC07eYaCtgfDWO2YctmxVh4Jw0vMEjVANghGn94kD32hbSVoR60pQCnar6xgFjEvaaXou5ozE3K_r2_LSsV8Dk_Qy6BUfJnENdY_YU_w7jBV62nLEqkGMy2HFgjysoUYTwgNswigiWd8EJVGk0P9_Nzd9LwailXpv_0ySCtfP6anyH_tPxujrRqNaQdXRA9_t=w1920-h902"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                data-aos="fade-right" data-aos-duration="1000"
+              />
+            </div>
+            <div class="projects__row-content" data-aos="fade-left" data-aos-duration="1000">
+              <h3 class="projects__row-content-title">MakeMoney - Crypto App</h3>
+              <p class="projects__row-content-desc">
+                MakeMoney is an application born to help users exchange and trade crypto. 
+                The application can help users manage their investments and monitor 
+                the graph to execute trading orders.
+              </p>
+              <a
+                href="https://www.behance.net/gallery/143995785/MakeMoney-Crypto-App"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >EXPLORE</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="https://lh3.googleusercontent.com/fife/AAbDypBOLe8_cE9r8hoQiS0D9v78Z4KAN7iFzPR94tgKsq9h759biPxPpH6sPrb214JQIl38t70oFyX2PACw0qHdetlsP3mwGuCjR-HjY03-XYBfj1rXrDACJzaVLqFWP2O_jjQFIQY24H9Lbe3cHjlb9zLKckwKEIsoMavF02frlG-m4gYsx_5SP18hATlLiPECyBYb03Qq77cap831C-U8tFqN9MPLCptfz4dFIZ2LoFza_uj7P2Kg5lEkHsKEqu5KbZMWfmTdQLerqtTNOzp08_PmkjCIngOyPPBbYYJ_RaiquV_B47mWAOEogZCZ-RbYPjys4NaDT20nAJhUcUjO-e-SjvQz9ACUGGtNJyNLHoma8iwgQ8oCleTWxvQMowdpMoiCH3HjRi5iLgjFVw2WZ6Slob8rR5PhriRyGh_jXLBOJ-sgFrBJ6vUP0Pq_JeELxIEg7B8aXPWj8bAtCrfXVmvPjL2kqxkh0oSKgfxJyOkoqEgQz7U-4fL4Zf4BWaPkFVYmQCjBHK0pnTGC1aXcV3SqMR5TmJ_KNV6cSK_fC9r2JU7pDlG4qAFlrSyqvLh2EHOlECiGGJHDoTHNHLNFr_zEAuPWIpVQ8_TQqXTFa_yQYqB0cSq5V81cwT5iNJBBsDznfwxN9Cnh64iFZdxRyUJjZbrsV_xTQwdburIsXWvSpb3Lg-LAlSyMACcsdEXlHy0IXcf45MYvOUte6JNxBoBC2KNspCHm2OmADwWkuRyJzP_x3XjZYDTQp2g58E7h6Cn4hmCXQk4pAc3vTdZ_2PU-BTURvJfUprCWn8WQjpqI8XzQFNMWSsfItlUj2LDJNedmUqY_hXEooQfDauSpQdc72SIaDNab334msmUDmt6k3N3pVqgo99NBMO84HPJL5tbAmnz7hgtg0Xzz1s6rxq7wLar1nDFB1htoKioFuigZGhyqcZi9MfeGVxwBayfDdecDEhT_a8XgHdqf-zJzVnY_prm3D8UhTIt1reSJKRN_yf_rtaiBDmHuuQhZ3_BWbpqi_a8JLI568Sub9cBuzrecATtU0GmNsN259DmBTNMHO9aY_5KK76IZkGxWUxLO4pdRJgY8L49s5-a4EGmRakDJy28gJdcFy8FgjXKL8lOQO96dFuGhX4BpLWeX0SGBdII79jU9utGcq_FiIX3q5SJE7I81G3PuzKW-gpfcS3OzDpTmzqnWt1ZVKj7MxyShllmeGYrE1irbyxtRVghzbbOT7MaU_PYPmfCYMpVj40sjr9DDc7P9UGdUIgpu_-oleFDt--uMdXunH5lVCOcwtu55CLZDLSff0dlpPbwF7D1K=w1228-h902"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                data-aos="fade-right" data-aos-duration="1000"
+              />
+            </div>
+            <div class="projects__row-content" data-aos="fade-left" data-aos-duration="1000">
+              <h3 class="projects__row-content-title">TAKETIME - WatchStore Landing Page</h3>
+              <p class="projects__row-content-desc">
+                <strong>TakeTime</strong> is a concept developed to be able to carry out a project 
+                with a different and more risky design. 
+                <strong>TakeTime</strong> is a Watch store with <strong>luxury style and gentlemanly</strong>.
+              </p>
+              <a
+                href="https://www.behance.net/gallery/144474227/TAKETIME-WatchStore-Landing-Page"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >EXPLORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Why me</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section> -->
+    <footer id="footer" class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a href="https://www.linkedin.com/in/ng%E1%BB%8Dc-qu%E1%BB%B3nh-nguy%E1%BB%85n-0397b624a/"
+		            target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="https://lh3.googleusercontent.com/fife/AAbDypDaMsgh4Moa7WBNgtmNj1GizsBU0FJDuGTZ5xHNfmRLdNWDb9JXojxT8A-G2CX-cywvp9WH_ca8LJ2PcOB_ooLbLWeyVpDs0HD1UuWpKbSWb7iykcfRgBRmhdpQrZb1Jl20Udi3XueVLJwJH-l8-quAEAYr4eWuo7xmbZ6lx4YYKwNrKGmvhSs2reTnaipa0-Krte3lkxbZBLgTJp60bgHPdkhr7dK5aAydDgXL2kD0wMfrKM1bAajVMttZnEZ7w4rY9tqjFvIVFR7-_Efplp5kWgQUe5OYiBB_QAP7xKdMpzVn_IzrUhgJVII6VwOxjsN8Tt62KQv0hJi3v5wLkKYLKH8MGT6zdk_TnL6KsSteDvvxZXEQq2oXSukR3HGg-iAhw0_qkbZHX-wV8iE0igIa_etj0WrTW1TGSoA0WnWjpJ3o3cL0tcoepn1lQ2GPOh_dFCQaTRltKCmwMnXs4tC61cXLut3alT1fN60KjD3RBqQ2T5vOn7-cUYdfoCNnP5LXO9B5J8D-4eyByHK07PTOluVbhNOV3KA1ZevdIz8D__Ou4yVOnFRcoc6wFmRl8YP1-B2G1U0Uz7iaedw0WH5kYt7rnynCFd56WE_CGHE9F146fFK5cgkleouTInbZ_qFfYtrZYyuydunDDiB1d9XNn9PX6BSHYS047WSNkwA4TUEr_U6G346GD_fSN3yk4WzUcNPj4o_HeWvJ89sOZG7od9dgJ9goTt3OD8eTiBXmVxIJPWuIVSPmXglUOYTSu-Qpm91AufqwggitxQQGDvG9PuxjCIAeP48gKBP-AdKTWLzlCX2twD_PMyVc7oN24vrSmdbuAbbUzZNz1u6Ic8lAUHDxZdx_f8_Vp2rFbgdsKl188VQsTCcOs4-amtkLOEQsTVJ5Y933Dvv03ezq_09j34UACd2jg-Y4eJaY25wsm95a0dPW-ZUirPA8_kB5MriJL8zgCJW0YaNmaKv-j_oyhUyF6Pz653VP2mVHTq7-hwV-RATwMwNOOMJ8auBlmzpsJnMLq_Vr2B37eaJSNDwdFRPUMbmDAOMSkJnu3bzMa-xTcCoSJ5d9odPO_Hy5XLs7_L02RBdAIMb2PDWfTse-e0HzLxRGszqHNEdeZRaFmRBIEvu_ic1wY_g43nDhxNjzvCcRN8LDqeoK9ValNLtaWds7YQvJpnOdkHwmlNG9jMtMzCocFpHKdu_EhCBSuWHAp0ujsGHMGOlwl5OTaH-4aBlXmZCIxgfufljEr5VVXLi-djMRJzLKov2Cf7U0YBl-TcEbiPqjr9HWmMtkNuVBxaU9qA4O5A4Y9jK9Aqt_=w1228-h902"
+                  alt="icon"
+                /> <!-- linkelin icon -->
+              </a>
+              <a href="https://www.behance.net/quynhnguye2763" 
+                target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="https://lh3.googleusercontent.com/fife/AAbDypDKNNy-k3eWfoAPS4of6yR_292Mt7Z8yfxpLYmYjrPQ_ecooG__DYr5ktiOHvGhrVSXO9PEUpqnPDdC8IwOSMZSVZRMuAA_ozgGu3PpEzH65JuPMb0oosAccSaAq2QKvKRbn1d2SyjTkr56Tgv7KhH6_jylJvDZ6bZMhh-IjEN7EL3N1lZKH9IIDWs9pal2uvKdt-K07J0ImhJUi9NOvQcY-wvdTRIVnahv7D0q4acGr1ymqFf9WUrFCBHedgykX5HuJ_VhPM57N6whdTGfwZWpRmwmYnAlZcBmM0ZJbcl4dj_jXzJl2UgPlgyC3umwhDCfxzS72p4lKFbXaSKkSGjkKCZP2e18j9hwL2XZY1JcduWov23zD_fgYu1CU1MJi3fCGURz9xrHg_fl5CZNkPkB2O8hGFoRiIVvYv4jpObW-PDepMVhjP1vlGsb890N5qagq9i5vwbcsM6_9rdAApMwmuXLbCdJlK-BN0o_fNGllHzXpYHRTkT0ZJwMxyZ-dZJdGuEzU2beYe5HSFRFH2mLP20MBaRqvHayzod8Trqfa_U-iJVDtx8ARFR-2n-fi0dcd-u-zeVGsjaMr-ZnQ2G4lmK3Z-3iL9Z5q9AFSMV7Fnyi7SRZVev-S-1lCPU9so-wd2L-EXfs93IkneGcqkqa7Uv1LlAc3QOMIVs8XRTWevFzx0sSfgD1JW0WZjOWx1lisqaLWKJ4pCvfuRDpylVkqcSPaFWAk7tnvXPGN4FDyIhTdqz7zkWWWAt3znrKRL41osNsRsR-r4KNRV_6pXj4P53N6fzRhmarKutgBA77sgbd14sZkPhKD7VgaqNH0QA4TXmGJafWrWMMbRq_kwy_OtvOLbvTwjsPwrg8s68w5_CekFrRiNKSpYpgAP5CWLnGu6-9N8qWdUAQV4sXROKIk3yxIA9-IQCyIznv5FicOfMgjQWX-46bfsZMtTJ2wU5JgIfoamC9jTjXMBSC5626sV4VP4e7fBL3AXPkega6DMBVGAME9z_w76ldqn3OJGi1DZeoy7WBWstcY36zVTzNpiUYDVkGF0m8gmX62zOul7h2Q-gwMOUP124C-ZnRUm2acOqQuJH4L_FE2Y0tsypyCsyyR4YfuEk9AsHfC5UIGmkXtDxsOwG2oBD0lLSpZloXVf9TIw86hGO9nPcOmhcZYIbhFMocsQf0DXL3sNkcuaseCAEp1s57i74H_lsiyoiuqc-vsHG_YpKH5zbRRlci89rr4k3uz4TmgIAIBKFebimoi9D6wtRqPFNIzQLB_Vbg0sHo-VgxW59fyEuUtzPeSopDVTFNkL0Z7M8yp-1W=w1228-h902"
+                  alt="icon"
+                /> <!-- behance icon -->
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="https://lh3.googleusercontent.com/fife/AAbDypDSHfw_zsHr9vQLYnR0PmvY1mxsU8H47TQk9X4muE1dcMtNJbhw9TnrXcO2a-KLD5x5dMJIWd-VJQUXVpbuVKEvWj8oycvrVISEVel7vugjcawww2xnwL1hv9LUqKCIkvtIweR8SmEa06qucHWoEIkHMCgz8sAtKdEPLJZyOUGB5qNmF8hteKBgOA34TrN1I4R9fWuB7L-m08TpKePge-5YsxYeTeRda7d0QMwqF7eUVKugxWnEKyaZM4oTqktFTTeUBhLaGIOmLh6hwSC0HwODAJUWb2OUtv9TnwH49mLD_h1e3gYpoNrBPby3c0FbdCd-IT6JWWkGXsmYpFgFExaRvsvgqrkl_djv-1V9v9_J1mvRC7khg0v8C9nGc0mrXzqp0QQqV2-V194EVCq9Hzkf09VXOvAD1EHmUGlNQbocjLUcrLByx5wjLCsrjxYoY4UKy_UkpEENr4vyzzVkABZmLEQdZshMoZbdtvZGoYzv3ogKBJYRSGLhfuPfIqzTAFgmQb9HoKbRXDu8KCi7EYZNI-8VFTf_ue3vnbpjqp_Ja5YZ0w1AWhZzIfUzKMCYlKTqjy4FRM25nRJYBNUlXu_ejzsr2viQYm1XQFD2vjaFx4uBVQTwl6UUIQxCJKjZIcJssqFImndHcb8G7wTVFjt_2gdfXuRaCT3cYCjDTCI05bDHIVS9cZkrToWAkxCvcBFOYatH50R-H-g5sk24DUyJ1jre77os8moSYtMgDtnRoFh51It-CX2uKe3BfGa4YzbGDZ2i2IO8Uur2aaEAXNO4gz3AgQCTN2dvAaYVkCpKDO3SztyIWa5UP7aX6PeTBcY-9HGP1jZWU07LfPPjM4ph9dh25kdWAgoDHVX_KYeVR2PowOK8__eaEkOLc2eDIFZnuRovgrOhqqXb0sJVVmDqeCexPsS0rUwEkoUxziVEioDlN5QEs-9SPbnlJAP27feJJjdyqmuYFrdW5RcCXfd-E0eXeOoTZb3eVQnxnwOqWbVboBMUkTuILiupIc3n-EMXfGr18bYHs96Pu1W9SaPV312G311QYVW3cVDpFY6PI-fH2pgYG3Cp_iYVQ-0Ni0wEolYKh6SVIH4S5plwp79JsLv93BXSyUwSR0icorm104ZJx7MIGjBkxTTue5d1GxUCLDt7fByrZs7A48vbTwUQ5GSOIIDT8mxORuJA4TMWS6VC9fzQb5wSO2e24g0vQy2mDUaIH0iidHLBdK6WMiIe_mGH7-7TopUv2AiRa3hVIFdUEVQoOwNhRfcZEFxiRf6FUHSRe1NWMPd23sSU2nOy0G7fG8XiM4S4qj1ZBO9m=w1228-h902"
+                  alt="icon"
+                /> <!-- insgram icon -->
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="https://lh3.googleusercontent.com/fife/AAbDypALviT6hybuV86wPl9yXgHmBa6S_IH43sVAR-ToucGHuM6P4tlMvPbUCWkD4QKcb8SeaXrWrvQdHp7pQDOub3Pm8F0gyhGZYxYyF2gEBiPT7WvZYcuZ3mUK-P19_W_MwO95P4-gTj-mGQiRk5bK4Bp1YMJjvRtrqK4Tb9X0YNq00eu9HeSdmMhpxEn1tjS2Xbj67XmlY06OH1rwyWics80sA-x7FFIk-y0JaLQOz6jwACLgZQT8eAhMkAXjE9WiNivHEiOwA8vbJa_5Bamk8liKaXVikwKbjvc3eChFgBGPdWIyinmninnzCJGbPmq14kQcmdyRe6m3fr8S6lLypokNumKyks6VGuSOjeo1KzK_gjoPkY7kui7274bfwiHIcXq-I6O0CyiGKPg3E8H9p5sM0-OkL4Vz8orE8VuuSeVV6vXA-3oXP8Pj0zGmjMOz34CXJgSdusN0BlAj15nKVwNxAQpih4FVqvZYgYqYKLmZjK5wlXd7fZtyJPKBHHalLut0s4TNO3ggPCXiWKOaBRUeWiT949xLJK5CjaJ7af8jovnuhqPV6Uy7XxfvlUI1djp73AfY6B2obpWjkrKezCnqPmh1a7-tx3VHkh291xrnkoHJPb8EygXe5UbdybNR-Q8kKRGXhOllZfYmlBeIo73Zhxo18OPwHMLXtidbNCjVbePCEqZrVnysAqoIvCMbWiZJRhSbq8c4ii4a8SK_1b19vqbwis_9DFWF4qQ2K5wlSeSww7np23IHUYEOWKi1ZmqnTqt5nOlpqBY_2sfZlFPJPf1mLL5zQ4Wl3TtMt7xWvZY_JFpoxrLnJtwrFPbRgpAAissVAh0EQsQEnrbUXlkz9EoaDnATyQIll6yqkpYbkWrpFbu1R-LgUYfRob0rX8_oa9m_SxvFRWivqbILOK02rjdHQ9JNfEvXnMQ4ui1BiJ0sySVuz8Fe8qcXhYJ3_jqHcPWzaDUGDQHnUlesakQ1nLnLRVsJdatVTTk0wwQA1vZRoDTXGEWSWVdjKwSy2UYwksoKttZ1zj6_nY3_O1p2fiAcPWUfel3xxU4Q-yvNf_VdOPjUZBQJ9bF0NStiQ3Kw1DPtY0KZsE9QygjThSuvUVrACs-F2TKowkEiRHarNfZjms9M4DrlQoJUORbye1QM9VV4-rM7Nfq0qabc0Bt26K_lQvp5NJnmYJBqsqSmTV-PYbD41Umh79E_obLbUEQlhG6dFsAAX7T3047D3wuUkoM6fWdx5zRG7B87kunqRfLSbDhcX8MODkVufxpV7ASjuIcQ93aoCoSPlQQjPPW0BjjbhA3cMXTxyWQYgP3b=w1228-h902"
+                  alt="icon"
+                /> <!-- Gmail icon-->
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="https://lh3.googleusercontent.com/fife/AAbDypBfz-I8CVEL5hu-xPtTWjOJ2MCn7qWScKWJf63CqmH-PPc3Vklq0d61O8OtJmPo6TkKfb47xr0RJm1TwbInPrbo6WYd6cuEMP3nDIuzqwcJP2b-zlJgk3QmevzOCkZiOX0VclKeYTQiqbcm-zO1JywuNyW5og-8QCZETSVMRsmnyoe1kX5Nhf5ibn7TGzZXoSJ3Y-WovB-S6lkxJkWUpggJWikjSGf0tnE5NuynUOAxe_U-CmZxJvtf42tozTEbzj11EmnGXc-5zpxI3tVwop1JZicRSM9WGtUdyqZ-oJK5nEq4hW1-bg8l8a31x60loWDKKFhPR0K0pM_WGcs3rJT5hVhYp5x0A7KxI_HX-HhOhRBvsB8Nrq-itutBa_DiyfhKjVT9BztcpPQS85RAZ0lvxqxsvVOQZ9PlaarQbCJr-PmGHKFLQgeOfq6Cwps_LF3RBMQYAeehwOBhz6ZSI3YqN07CJ_gUjD4P36mFkrue72Nlfco6Fg0w_y-1IlwMvg6G7s_Q27-1HJPeYixdRV_NB0A3dyS93ZVlmHuNp0JoMCA3b5DrA505bWj8uA2HY8gHFyzbCax53Pg0eQ-jn55n2cL45fOXxPDX0l5lmy4dVzpPo7PvJffrRVtosiIXE_jPqcFtifThkLB9f3ljxNi_ZiobooyGOoJ3LOuCtMq-LLa2TwT-XbBsd8l8RLMx6HYwgzgI7Ffru_BkEpJLRHVCUeV7PqTXkXNwCQk-MRIng_Ls-KkmpJq0b3xyGV7jRGpHzUcXByWegEm_UQWoBFhI1ThjoCZzE_8N1IvecglPUIWY1aduGH0h-eUKagifOazlNIhwIp6tSWu6aAHPy_RJMM7jQkqIrixxxnUZ_z5-dlkik8i_C7Z-nOL5IjzpUNQcuvpEO__lczPA7tgOJrl8pW3i6ruSSwksS7dgpOe48BSt1rE9pZmyM0bjsCf6VWLbXraTnDKbjSaSTz_9q3Bc4itQcPVk42bYsrKwVO0m7XWXJ8JcH_Swueenhxp7mOlQN-0wKyf94Mik5OOCnjpqphWN55RXoASJPOn7MoanClZW2-iSLCWWxVNGSjPihsYpN-3P8eiHaKtJJybIIpJiRcSXgHk_-qgE3o0VEJ7nbKryDgZfdgD1cDqjGHkhwg6TTWyM_-OWwGomorAChbD_1HlfnUcxRoQeFV4WDER4BW1JDKYjJTfQf0NDBE-k4P3s7OC4lkec-hhULmg3FTlzlIYbkvwF-P_Zz6GvfNR3dx2z_O7LIyfGclnDom71s2fHgvK9Fp8fbNQR3lqZUx45vp6kCqHRFu44ijpt9Fz3=w1228-h902"
+                  alt="icon"
+                /> <!-- facebook icon-->
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Nguyễn Ngọc Quỳnh <br>Get In Touch</h4>
+            <p class="main-footer__short-desc">
+              quynhnguyenngoc121@gmail.com 
+              <br> +84 946 646 043 
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2022. Made by
+          <a rel="noreferrer" target="_blank" href=""
+            >Nguyen Ngoc Quynh</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="./index.js"></script>
+  </body>
+</html>
